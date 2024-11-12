@@ -38,12 +38,7 @@ def get_latest_stock_price(symbol):
 # Route for the root path
 @app.route('/')
 def index():
-    return "Welcome to the Stock Market Chatbot!"
-
-# Route for the favicon
-@app.route('/favicon.ico')
-def favicon():
-    return '', 204  # Respond with no content
+    return "Jemin Shrestha : 200567785"
 
 # POST endpoint for Dialogflow webhook
 @app.route('/webhook', methods=['POST'])
